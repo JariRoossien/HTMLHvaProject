@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://wallpapermemory.com/uploads/695/code-wallpaper-hd-1080p-53043.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bar {
+    width:100vw;
+    height: 80px;
+    margin-left: -1vw;
+    margin-top: -2vh;
+    background-color: #5d5e5e;
+    overflow: hidden;
+    display: block;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Calibri, serif;
+}
+
+.subtop h1 {
+    color: black;
+
+}
+.content {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    overflow: hidden;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 2vh;
+}
+
+.splitbar {
+    background-color: black;
+    width: 90%;
+    height: 1px;
+    margin: 0 5% 0 5%;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.block {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    border: solid 5px #5d5e5e;
+    border-radius: 10px;
+    opacity: 1.0;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+}
+
+#about {
+    margin-right: 1%;
+}
+
+#Opleiding {
+    margin-left: 1%;
+}
+
+li {
+    font-family: Calibri;
+    opacity: 1;
+}
